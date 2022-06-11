@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'next-themes'
-import Meta from '@/components/meta'
+// import Meta from '@/components/meta'
 import '@/styles/globals.css'
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -10,7 +10,6 @@ const App = ({ Component, pageProps }: AppProps) => {
 			defaultTheme='system'
 			disableTransitionOnChange
 		>
-			<Meta />
 			<Component {...pageProps} />
 		</ThemeProvider>
 	)

@@ -5,7 +5,7 @@ const Index = () => (
 	<Page>
 		<Section>
 			<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200'>
-				Hey 👋 I'm Filip Zdravkovic.
+				Hey 👋 I am Filip Zdravkovic.
 			</h2>
 
 			<div className='mt-2'>
